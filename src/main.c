@@ -4,7 +4,7 @@
 
 int main()
 {
-	word_t* p1 = allocate(3);
+    word_t* p1 = allocate(3);
 	Block* p1b = get_header(p1);
 
 	assert(p1b->size == sizeof(word_t));
